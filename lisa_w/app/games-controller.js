@@ -1,7 +1,7 @@
 'use strict';
 
 module.exports = (app) => {
-
+  const app = angular.module('ArcadeApp', []);
   app.controller('GameController', ['$scope','$http', function($scope, $http){
     console.log('marker 1');
     const gameRoute = 'http://localhost:5000/games';

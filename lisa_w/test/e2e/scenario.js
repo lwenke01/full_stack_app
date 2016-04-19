@@ -99,7 +99,7 @@ it('should clear the game', function(){
 
 });
 
-it('should delete an arcade', function(){
+it('should delete an game', function(){
   deleteGame.click();
   expect(inputTitle.getAttribute('value')).toBe('');
   expect(inputGenre.getAttribute('value')).toBe('');

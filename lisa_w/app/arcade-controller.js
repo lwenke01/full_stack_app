@@ -1,6 +1,7 @@
 'use strict';
 
 module.exports = (app) => {
+  const app = angular.module('ArcadeApp', []);
 
   app.controller('ArcadeController', ['$scope','$http', function($scope, $http){
     console.log('marker 1');

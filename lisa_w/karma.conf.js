@@ -14,7 +14,9 @@ module.exports = function(config) {
 
 
     // list of files / patterns to load in the browser
-    files: [
+    files: ['test/unit-test/karma-test.js',
+    'node_modules/requirejs/require.js',
+     'node_modules/karma-requirejs/lib/adapter.js',
     ],
 
 
